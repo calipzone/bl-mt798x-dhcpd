@@ -1,6 +1,6 @@
 # MTK Button Summary
 
-Generated: 2026-05-16 10:35:09
+Generated: 2026-05-17 09:39:52
 
 This document lists mt798* device-tree files that define `gpio-keys` nodes, with button label, PIO index, and active level.
 
@@ -11,7 +11,7 @@ This document lists mt798* device-tree files that define `gpio-keys` nodes, with
 | `mt7981-360t7.dts` | 360t7 | reset | 1 | LOW |
 |  |  | mesh | 0 | LOW |
 | `mt7981-abt_asr3000.dts` | abt_asr3000 | reset | 1 | LOW |
-|  |  | mesh | 0 | HIGH |
+|  |  | mesh | 0 | LOW |
 | `mt7981-aigo-s21.dts` | aigo-s21 | reset | 1 | LOW |
 |  |  | mesh | 0 | LOW |
 | `mt7981-airpi-ap3000m.dts` | airpi-ap3000m | reset | 1 | LOW |
@@ -20,7 +20,7 @@ This document lists mt798* device-tree files that define `gpio-keys` nodes, with
 |  |  | mesh | 0 | LOW |
 | `mt7981-bt_rb300.dts` | bt_rb300 | reset | 1 | LOW |
 | `mt7981-cetron_ct3003.dts` | cetron_ct3003 | reset | 1 | LOW |
-|  |  | mesh | 0 | HIGH |
+|  |  | mesh | 0 | LOW |
 | `mt7981-clt-r30b1.dts` | clt-r30b1 | reset | 0 | LOW |
 |  |  | mesh | 1 | LOW |
 | `mt7981-cmcc-rax3000m-emmc.dts` | cmcc-rax3000m-emmc | reset | 1 | LOW |
@@ -45,7 +45,7 @@ This document lists mt798* device-tree files that define `gpio-keys` nodes, with
 | `mt7981-imou_lc-hx3001.dts` | imou_lc-hx3001 | reset | 1 | LOW |
 |  |  | mesh | 0 | LOW |
 | `mt7981-jcg_q30.dts` | jcg_q30 | reset | 1 | LOW |
-|  |  | mesh | 0 | HIGH |
+|  |  | mesh | 0 | LOW |
 | `mt7981-konka_komi-a31.dts` | konka_komi-a31 | reset | 1 | LOW |
 |  |  | mesh | 0 | LOW |
 | `mt7981-livinet_zr-3020.dts` | livinet_zr-3020 | reset | 1 | LOW |
