@@ -2318,7 +2318,7 @@ $(defaultenv_h): $(CONFIG_ENV_DEFAULT_ENV_TEXT_FILE:"%"=%) FORCE
 	$(call filechk,defaultenv.h)
 
 ifeq ($(CONFIG_WEBUI_FAILSAFE_ENV_CUSTOM_ENV),y)
-$(customenv_h): $(srctree)/defenvs/custom_env FORCE
+$(customenv_h): $(srctree)/$(CONFIG_WEBUI_FAILSAFE_ENV_CUSTOM_ENV_FILE:"%"=%) FORCE
 	$(call filechk,customenv.h)
 endif
 
